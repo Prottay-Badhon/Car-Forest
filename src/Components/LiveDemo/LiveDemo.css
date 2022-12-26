@@ -1,0 +1,47 @@
+.next-car,
+.best-car {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+}
+.best-car {
+  color: #1953b5;
+}
+.demo-btn {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background: #cfedf1;
+  color: navy;
+  cursor: pointer;
+}
+.live-demo-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 20px;
+  padding: 10px;
+  margin: 60px 80px;
+}
+.live-demo-container .live-demo{
+    margin: 0 100px 0 20px;
+}
+.demo-image-container img {
+  height: 400px;
+  width: 400px;
+  border-radius: 8px;
+}
+@media only screen and (max-width: 767px) {
+    .live-demo-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 32px;
+    }
+    .live-demo .next-car,.live-demo .best-car{
+        font-size: 30px;
+    }
+    .live-demo-container .live-demo {
+        margin: 0;
+    }
+}
