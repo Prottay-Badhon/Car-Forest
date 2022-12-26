@@ -10,7 +10,7 @@ const LiveDemo = () => {
             <button className="demo-btn">Live demo</button>
       </div>
       <div className="demo-image-container">
-        <img src="car3.jpeg" alt="" />
+        <img src="images/car3.jpeg" alt="" />
       </div>
     </div>
   );
