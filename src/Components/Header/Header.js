@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   let activeStyle = {
-    color: "#20119b",
+    color: "#ffc800",
     fontWeight: "bold"
   };
   const [toggle, setToggle] = useState(0);

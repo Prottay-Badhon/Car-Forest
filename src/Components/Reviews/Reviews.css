@@ -1,7 +1,8 @@
 .reviews{
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    padding: 150px 0;
+    background-color: #e7e7e7;
 }
 .reviews-container{
     display: grid;

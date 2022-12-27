@@ -1,0 +1,24 @@
+.three-review {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.all-review-btn{
+    border: none;
+    background-color: greenyellow;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.three-review .command-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.review-container-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 90px 10px;
+}

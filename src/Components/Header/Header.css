@@ -1,8 +1,8 @@
 .text-decoration-none {
   text-decoration: none;
 }
-.text-black {
-  color: black;
+.text-white {
+  color: white;
 }
 nav {
   display: flex;
@@ -16,6 +16,10 @@ nav ul li {
   color: white;
 }
 @media only screen and (min-width: 768px) {
+  
+  nav{
+    background-color: #001240;
+  }
   nav ul {
     display: flex;
   }
@@ -30,9 +34,7 @@ nav ul li {
   }
 }
 @media only screen and (max-width: 767px) {
-  .text-white {
-    color: white;
-  }
+ 
   nav {
     background-color: #1953b5;
     display: flex;

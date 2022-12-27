@@ -1,0 +1,15 @@
+.cat-icon{
+    color: #0b0e74;
+    font-size: 77px;
+}
+.cat-icon-container h2{
+    color: orangered;
+}
+.cat-icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+    text-transform: capitalize;
+}
