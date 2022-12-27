@@ -47,7 +47,7 @@ const Header = () => {
         </li>
         <li>
           <NavLink
-            to="/blogs"
+            to="/blog"
             className="text-decoration-none text-black text-white"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >

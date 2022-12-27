@@ -22,3 +22,12 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 90px 10px;
 }
+@media only screen and (max-width: 767px) {
+
+    .review-container-3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 90px 0;
+    }
+    
+}

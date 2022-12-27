@@ -1,15 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import useReviews from "../../Hooks/useReviews";
 import Review from "../Review/Review";
 import "./ThreeReviews.css";
 const ThreeReviews = () => {
-  const [reviews, setReviews] = useState([]);
-  useEffect(() => {
-    fetch("Reviews.json")
-      .then((res) => res.json())
-      .then((data) => setReviews(data));
-  }, []);
-
+    const reviews = useReviews();
   let command;
   if (reviews.length > 3) {
     command = (
