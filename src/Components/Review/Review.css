@@ -1,0 +1,31 @@
+.star-icon{
+ color: #ffbc41;;
+ margin-left: 3px;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 400px;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    background: #9daeed;
+    border: none;
+    box-shadow: 2px 3px 4px 1px #2b2b6a;
+}
+.review-img-container{
+    position: absolute;
+    left: 80px;
+    top: -69px;
+}
+.review .review-img-container .review-img{
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+}
+.review-description{
+    margin-top: 80px;
+}
+.review-description h2{
+}
