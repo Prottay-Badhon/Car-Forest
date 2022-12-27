@@ -1,0 +1,52 @@
+[
+    {
+      "id": "63aad951cdb87044e9a25034",
+      "name": "Rosalie Huber",
+      "image": "images/reviewer/reviewer1.jpeg",
+      "comment": "loremhufjfkjd bbewfueiwfhew",
+      "rating": 4
+    },
+    {
+      "id": "63aad951456f23a4c7dd841a",
+      "name": "Ewing Todd",
+      "image": "images/reviewer/reviewer2.jpeg",
+      "comment": "loremhufjfkjd bbewfueiwfhew",
+
+      "rating": 5
+    },
+    {
+      "id": "63aad951a22b3ff435a39d46",
+      "name": "Mcgowan Odom",
+      "image": "images/reviewer/reviewer3.jpg",
+      "comment": "loremhufjfkjd bbewfueiwfhew",
+      "rating": 3
+    },
+    {
+      "id": "63aad951b209ea43b6924bff",
+      "name": "Woodard Higgins",
+      "image": "images/reviewer/reviewer4.jpg",
+      "comment": "loremhufjfkjd bbewfueiwfhew",
+      "rating": 4
+    },
+    {
+      "id": "63aad951bd4c40bae1c90ded",
+      "name": "Concetta Harrell",
+      "image": "images/reviewer/reviewer5.jpg",
+      "comment": "loremhufjfkjd bbewfueiwfhew",
+      "rating": 2
+    },
+    {
+      "id": "63aad951178a869841ad482f",
+      "name": "Guerrero Moss",
+      "image": "images/reviewer/reviewer6.jpg",
+      "comment": "loremhufjfkjd bbewfueiwfhew",
+      "rating": 1
+    },
+    {
+      "id": "63aad951ac16d8f0341aba2e",
+      "name": "Laurel Rojas",
+      "image": "images/reviewer/reviewer7.jpg",
+      "comment": "loremhufjfkjd bbewfueiwfhew",
+      "rating": 2
+    }
+  ]

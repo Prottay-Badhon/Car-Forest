@@ -1,18 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState }  from 'react';
 import Review from '../Review/Review';
 import "./Reviews.css"
 const Reviews = () => {
+    const[reviews,setReviews]=useState([]);
+    useEffect(()=>{
+        fetch("Reviews.json")
+        .then(res=>res.json())
+        .then(data=>setReviews(data))
+    },[])
     return (
        <div className="reviews">
          <div className='reviews-container'>
-            <Review></Review>
-            <Review></Review>
-            <Review></Review>
-            <Review></Review>
-            <Review></Review>
-            <Review></Review>
-            <Review></Review>
-            <Review></Review>
+            {
+                reviews.map(review=> <Review review={review} key={review.id}></Review>)
+            }
 
         </div>
        </div>
